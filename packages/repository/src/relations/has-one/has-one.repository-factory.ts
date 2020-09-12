@@ -12,7 +12,9 @@ import {resolveHasOneMetadata} from './has-one.helpers';
 import {createHasOneInclusionResolver} from './has-one.inclusion-resolver';
 import {DefaultHasOneRepository, HasOneRepository} from './has-one.repository';
 
-const debug = debugFactory('loopback:repository:has-one-repository-factory');
+const debug = debugFactory(
+  'loopback:repository:relations:has-one:repository-factory',
+);
 
 export interface HasOneRepositoryFactory<
   Target extends Entity,

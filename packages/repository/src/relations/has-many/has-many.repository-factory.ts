@@ -15,7 +15,9 @@ import {
   HasManyRepository,
 } from './has-many.repository';
 
-const debug = debugFactory('loopback:repository:has-many-repository-factory');
+const debug = debugFactory(
+  'loopback:repository:relations:has-many:repository-factory',
+);
 
 export interface HasManyRepositoryFactory<
   Target extends Entity,
