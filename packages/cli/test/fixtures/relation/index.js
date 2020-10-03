@@ -131,18 +131,6 @@ const SourceEntries = {
     content: readSourceFile('./repositories/address-class-type.repository.ts'),
   },
 
-  NoKeyModel: {
-    path: MODEL_APP_PATH,
-    file: 'no-key.model.ts',
-    content: readSourceFile('./models/no-key.model.ts'),
-  },
-
-  NoKeyRepository: {
-    path: REPOSITORY_APP_PATH,
-    file: 'no-key.repository.ts',
-    content: readSourceFile('./repositories/no-key.repository.ts'),
-  },
-
   NoRepoModel: {
     path: MODEL_APP_PATH,
     file: 'no-repo.model.ts',
@@ -242,7 +230,6 @@ exports.SANDBOX_FILES = [
   SourceEntries.CustomerClassTypeRepository,
   SourceEntries.OrderClassTypeRepository,
   SourceEntries.AddressClassTypeRepository,
-  SourceEntries.NoKeyRepository,
   SourceEntries.DoctorRepository,
   SourceEntries.PatientRepository,
   SourceEntries.AppointmentRepository,
@@ -250,7 +237,6 @@ exports.SANDBOX_FILES = [
   SourceEntries.CustomerModel,
   SourceEntries.OrderModel,
   SourceEntries.AddressModel,
-  SourceEntries.NoKeyModel,
   SourceEntries.NoRepoModel,
   SourceEntries.CustomerClassModel,
   SourceEntries.OrderClassModel,
@@ -274,7 +260,6 @@ exports.SANDBOX_FILES2 = [
   SourceEntries.CustomerClassTypeRepository,
   SourceEntries.OrderClassTypeRepository,
   SourceEntries.AddressClassTypeRepository,
-  SourceEntries.NoKeyRepository,
   SourceEntries.DoctorRepository,
   SourceEntries.PatientRepository,
   SourceEntries.AppointmentRepository,
@@ -282,7 +267,6 @@ exports.SANDBOX_FILES2 = [
   SourceEntries.CustomerModel,
   SourceEntries.OrderModel,
   SourceEntries.AddressModel,
-  SourceEntries.NoKeyModel,
   SourceEntries.NoRepoModel,
   SourceEntries.CustomerClassModel,
   SourceEntries.OrderClassModel,
