@@ -67,6 +67,13 @@ export class HelloObserver implements LifeCycleObserver {
   */
 
   /**
+   * This method will be invoked when the application initializes
+   */
+  async init(): Promise<void> {
+    // Add your logic for init
+  }
+
+  /**
    * This method will be invoked when the application starts
    */
   async start(): Promise<void> {
