@@ -27,21 +27,22 @@ export class MyObserverObserver implements LifeCycleObserver {
   */
 
   /**
-   * This method will be invoked when the application initializes
+   * This method will be invoked when the application initializes. It will be
+   * called at most once for a given application instance.
    */
   async init(): Promise<void> {
     // Add your logic for init
   }
 
   /**
-   * This method will be invoked when the application starts
+   * This method will be invoked when the application starts.
    */
   async start(): Promise<void> {
     // Add your logic for start
   }
 
   /**
-   * This method will be invoked when the application stops
+   * This method will be invoked when the application stops.
    */
   async stop(): Promise<void> {
     // Add your logic for stop
@@ -77,21 +78,22 @@ export class MyObserverObserver implements LifeCycleObserver {
   */
 
   /**
-   * This method will be invoked when the application initializes
+   * This method will be invoked when the application initializes. It will be
+   * called at most once for a given application instance.
    */
   async init(): Promise<void> {
     // Add your logic for init
   }
 
   /**
-   * This method will be invoked when the application starts
+   * This method will be invoked when the application starts.
    */
   async start(): Promise<void> {
     // Add your logic for start
   }
 
   /**
-   * This method will be invoked when the application stops
+   * This method will be invoked when the application stops.
    */
   async stop(): Promise<void> {
     // Add your logic for stop
@@ -127,21 +129,22 @@ export class MyObserverObserver implements LifeCycleObserver {
   */
 
   /**
-   * This method will be invoked when the application initializes
+   * This method will be invoked when the application initializes. It will be
+   * called at most once for a given application instance.
    */
   async init(): Promise<void> {
     // Add your logic for init
   }
 
   /**
-   * This method will be invoked when the application starts
+   * This method will be invoked when the application starts.
    */
   async start(): Promise<void> {
     // Add your logic for start
   }
 
   /**
-   * This method will be invoked when the application stops
+   * This method will be invoked when the application stops.
    */
   async stop(): Promise<void> {
     // Add your logic for stop

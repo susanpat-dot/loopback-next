@@ -304,6 +304,9 @@ export class Application extends Context implements LifeCycleObserver {
    * application state is checked to ensure the integrity of `initialize`.
    *
    * If the application is already initialized, no operation is performed.
+   *
+   * This method is automatically invoked by `start()` if the application is not
+   * initialized.
    */
   public async init(): Promise<void> {
     if (this._initialized) return;

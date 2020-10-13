@@ -15,9 +15,13 @@ import {
 import {CoreTags} from './keys';
 
 /**
- * Observers to handle life cycle start/stop events
+ * Observers to handle life cycle init/start/stop events
  */
 export interface LifeCycleObserver {
+  /**
+   * The method to be invoked during `init`. It will only be called at most once
+   * for a given application instance.
+   */
   init?(): ValueOrPromise<void>;
   /**
    * The method to be invoked during `start`
